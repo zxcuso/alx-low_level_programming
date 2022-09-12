@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - this is where the program start running
+ * main - this is where the program start running
  * Return:returns zero if no error and non zero if error
  */
 int main(void)
@@ -19,4 +19,4 @@ int main(void)
 		else
 			printf("%d is negative\n" , n);
 	return (0);
-}	
+}
