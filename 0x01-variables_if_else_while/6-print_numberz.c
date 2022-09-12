@@ -17,13 +17,11 @@ int main(void)
 			{
 				if (i < j && j < k)
 				{
-					putchar(i);
-					putchar(j);
-					putchar(k);
+					putchar(i), (j), (k);
+		                        
 					if (!(i == '7' && j == '8' && k == '9'))
 					{
-						putchar(',');
-						putchar(' ');
+						putchar(','), (' ');
 					}
 				}
 				k++;
