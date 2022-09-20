@@ -3,9 +3,9 @@
 
 /**
  * print_array - prints n element of array
- * @n: array 
+ * @n: array
  * @a: number of elements
- * Return: nothing 
+ * Return: nothing
  */
 
 void print_array(int *a, int n)
