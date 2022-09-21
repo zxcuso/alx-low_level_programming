@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _streat - concatenates the string pointed to by @sre to 
+ * _streat - concatenates the string pointed to by @sre to
  * the end of the string pointed to by @dest
  * @dest: String that will be appended
  * @src: String to be concatenated upon
@@ -11,6 +11,7 @@
 
 char *_strcat(char *dest, char *src)
 {
+
 	int index = 0, dest_len = 0;
 
 	while (dest[index++])
