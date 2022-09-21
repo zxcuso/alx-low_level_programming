@@ -1,17 +1,16 @@
 #include "main.h"
 
 /**
- * _streat - concatenates the string pointed to by @sre to
- * the end of the string pointed to by @dest
- * @dest: String that will be appended
- * @src: String to be concatenated upon
+ * _streat - concatenate the string 
+ * the end of the string pointed
+ * @dest: string that will
+ * @src: string to be concatenated
  *
  * Return: returns pointer to @dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-
 	int index = 0, dest_len = 0;
 
 	while (dest[index++])
@@ -22,3 +21,4 @@ char *_strcat(char *dest, char *src)
 
 	return (dest);
 }
+
